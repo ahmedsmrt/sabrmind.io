@@ -1,0 +1,184 @@
+/* Universal Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:whitesmokeo;
+    height: 100vh;
+    font-family: 'PT Sans', Sans-Serif;
+}
+
+header {
+    opacity: .8;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+
+main {
+    height: 80vh;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Nunito', Sans-Serif;
+    font-weight: 200;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    font-family: 'PT Sans', Sans-Serif;
+    font-size: 16px;
+}
+
+/* Landing */
+
+#landing {
+    position: relative;
+    background-color:#FDEBD0 ;
+    height: 100vh;
+    width: auto;
+}
+
+#overlay {
+    position: relative;
+    background-color: black;
+    opacity: .1;
+    height: 100vh;
+    width: auto;
+    display: none;
+}
+
+#container {
+    background-color: transparent;
+    opacity: .95;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+}
+
+#image-box {
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    height: 35rem;
+    width: 35rem;
+    background-image: url(../images/Woman-Meditating-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-box:hover {
+    transition: .5s;
+}
+
+#dot-1, #dot-2, #dot-3, #dot-4 {
+    background-color: #AED6F1;
+    opacity: .8;
+    z-index: 10;
+    border: .5px solid #273746 ;
+}
+
+#dot-1:hover, #dot-2:hover, #dot-3:hover, #dot-4:hover {
+    opacity: 1;
+    background-color:#D6EAF8;
+    transform: scale(1.2);
+}
+
+
+#dot-1 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 3%;
+    top: -5%;
+}
+
+#dot-2 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    left: 18%;
+    top: 13%;
+
+}
+
+#dot-3 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    left: 24%;
+    top: 20%;
+}
+
+#dot-4 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    left: 13%;
+    top: 4%;
+}
+
+
+
+
+
+#container h1, #container p {
+    color: #273746;
+    position: relative;
+    top: 20%;
+}
+
+/* Nav Styling */
+
+nav {
+    height: 8vh;
+    z-index: 10;
+}
+
+nav ul {
+    text-align: left;
+    height: 100%;
+    padding: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    
+}
+
+nav ul li a:hover {
+    color: #283747 ;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #D6EAF8;
+    height: 40vh;
+    width: auto;
+}
